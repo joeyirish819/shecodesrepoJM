@@ -19,7 +19,7 @@ body{
     width: 80%;
     font-size: 16px;
     padding: 30px, 40px;
-    height: fit-content;
+    height: 100%;
 }
 main {
     padding: 30px o;
@@ -39,6 +39,7 @@ main {
     display: flex;
     justify-content: space-between;
     line-height: 48px;
+    
 }
 
 .weather-app-city {
@@ -55,10 +56,23 @@ main {
     font-weight: 500;
 }
 
-. .weather-app-details strong {
+.weather-app-temperature {
+    text-align: right;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+ .weather-app-details strong {
      color: #f65282;
 }
+
+a {
+    color: #885df1;
+    line-height: 5px;
+}
+
 footer {
     border-top: 1px solid #f9f7fe;
+    text-align: center;
 
 }
