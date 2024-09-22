@@ -63,6 +63,8 @@ weather-app-data {
 .weather-app-icon {
   font-size: 44px;
   margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .weather-app-temperature {
