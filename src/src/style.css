@@ -21,6 +21,9 @@ body{
     padding: 30px, 40px;
     height: fit-content;
 }
+main {
+    padding: 30px o;
+}
 
 .search-form-button {
     background: #885df1;
@@ -29,4 +32,29 @@ body{
     margin-left: 10px;
     border-radius: 6px;
     color: white;
+}
+
+.weather-app-data {
+
+    display: flex;
+    justify-content: space-between;
+    line-height: 48px;
+}
+
+.weather-app-city {
+
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;;
+}
+
+.weather-app-details {
+    font-size: 16px;
+    color: rgba(39, 33, 66, 0.4);
+    line-height: 20px;
+}
+
+footer {
+    border-top: 1px solid #f9f7fe;
+
 }
