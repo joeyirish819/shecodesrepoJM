@@ -71,6 +71,7 @@ weather-app-data {
   font-size: 88px;
   margin-left: 10px;
   font-weight: bold;
+  color:#885df1
 }
 
 .weather-app-unit {
@@ -90,10 +91,11 @@ font-size: 16px;
 line-height: 20px;
 margin-bottom: 10px;
 }
-
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-app-temperatures {
   text-align: center;
